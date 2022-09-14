@@ -1,8 +1,8 @@
 import React from "react";
 
-import signature from "./Signatture.svg"
-import "About_Us.scss";
-import { Decoration } from "../../../Assets/Shared/Decoration/Decoration.svg";
+import signature from "../../../Assets/pictures/Signature.svg"
+import "./About_Us.scss";
+import  {Decoration}  from "../../../Assets/Shared/Decoration/Decoration";
 
 export const HomeAboutUs = () => {
     return (

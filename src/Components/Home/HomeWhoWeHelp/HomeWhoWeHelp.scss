@@ -1,0 +1,108 @@
+@import "../../../Scss/Settings/colors";
+@import "../../../Scss/Settings/fonts";
+
+.who-we-help {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-dark-grey;
+
+  .title {
+    letter-spacing: -0.76px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 50px 0;
+
+    h2 {
+      line-height: 1.3;
+    }
+  }
+
+  &-buttons {
+    display: flex;
+    flex-wrap: wrap;
+
+    button {
+      height: 80px;
+      width: 208px;
+      font-family: $font-base;
+      font-size: 1.5rem;
+      background: white;
+      border: none;
+      color: $color-dark-grey;
+      margin: 0 20px;
+    }
+  }
+
+  &-description {
+    max-width: 640px;
+    margin: 70px 0 66px 0;
+    font-family: $font-base;
+    font-size: 1.375rem;
+    text-align: center;
+  }
+
+  &-list {
+    &-element {
+      width: calc(100vw - 200px);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 0.75px solid $color-dark-grey;
+      margin-bottom: 34px;
+      padding-bottom: 30px;
+
+      &:nth-of-type(3) {
+        border: none;
+      }
+
+      h4 {
+        font: normal normal 300 26px/31px $font-alt;
+        margin-bottom: 6px;
+      }
+
+      &-purpose {
+        font: normal normal 300 18px/22px $font-alt;
+      }
+
+      &-what {
+        font: normal normal 300 18px/22px $font-alt;
+        margin-right: 36px;
+      }
+    }
+  }
+
+  &-paging {
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    button {
+      width: 40px;
+      height: 50px;
+      font-family: $font-base;
+      font-size: 1.5rem;
+      background: white;
+      border: none;
+      margin-right: 15px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &:focus {
+        border: 1px solid $color-dark-grey;
+      }
+    }
+  }
+}
+
+.selected {
+  border: 0.75px solid $color-dark-grey !important;
+}

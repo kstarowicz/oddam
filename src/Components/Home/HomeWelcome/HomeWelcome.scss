@@ -1,0 +1,52 @@
+@import "../../../Scss/Settings/colors";
+
+.welcome {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &-left {
+    width: 45%;
+    background-image: url("../../../Assets/pictures/Form-Hero-Image.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+  }
+  &-right {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-right-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 70px;
+  }
+
+  .title {
+    letter-spacing: -0.76px;
+    color: $color-dark-grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      line-height: 1.3;
+    }
+  }
+
+  &-buttons {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

@@ -1,19 +1,19 @@
 import { Home } from "../Components/Home/Home";
 import { Login } from "../Components/Login/Login";
-import { Register } from "../Components/Register/Register";
+//import { Register } from "../Components/Register/Register";
 import { Logout } from "../Components/Logout/Logout";
-import { NotFound } from "../Components/NotFound";
+//import { NotFound } from "../Components/NotFound";
 
 import {
     HOME_ROUTE,
-    NOT_FOUND_ROUTE,
+   // NOT_FOUND_ROUTE,
     LOGOUT_ROUTE,
-    REGISTER_ROUTE,
+    //REGISTER_ROUTE,
     LOGIN_ROUTE,
     FOUR_STEPS_ROUTE,
     ABOUT_US_ROUTE,
     WHO_WE_HELP_ROUTE,
-    CONTACT_ROUTE
+    //CONTACT_ROUTE
 } from "./routeNames";
 
 
@@ -27,7 +27,7 @@ export const ROUTES_TO_CLASSNAMES_MAP = {
     [FOUR_STEPS_ROUTE]: "four-steps",
     [ABOUT_US_ROUTE]: "about-us",
     [WHO_WE_HELP_ROUTE]: "who-we-help",
-    [CONTACT_ROUTE]: "contact",
+    //[CONTACT_ROUTE]: "contact",
 };
 
 export const ROUTES = [
@@ -39,16 +39,16 @@ export const ROUTES = [
         path: LOGIN_ROUTE,
         element: <Login />
     },
-    {
+    /*{
         path: REGISTER_ROUTE,
         element: <Register />
-    },
+    },*/
     {
         path: LOGOUT_ROUTE,
         element: <Logout />
     },
-    {
+    /*{
         path: NOT_FOUND_ROUTE,
         element: <NotFound />
-    },
+    },*/
 ];

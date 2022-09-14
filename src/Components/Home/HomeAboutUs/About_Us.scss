@@ -1,9 +1,57 @@
-@import "src/Scss/Settings/colors";
+@import "../../../Scss/Settings/colors";
 
 .about-us {
   height: 100vh;
   width: 100%;
   display: flex;
 
+&-left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $color-light-grey;
+}
+
+  &-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-dark-grey;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    margin: 0 auto;
+
+    p {
+      margin: 54px 0 40px 0;
+      font-size: 1.875rem;
+      text-align: center;
+      line-height: 1.5;
+    }
+  }
+
+  .signature {
+    align-self: flex-end;
+    width: 208px;
+    height: 148px;
+  }
+  &-right {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+
+
+
+
+.people-image {
+  background: transparent url("../../../Assets/pictures/People.jpg") center no-repeat;
 
 }

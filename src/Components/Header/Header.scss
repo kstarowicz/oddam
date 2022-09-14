@@ -1,0 +1,47 @@
+@import "../../Scss/Settings/fonts";
+@import "../../Scss/Settings/colors";
+
+header {
+  height: auto;
+  width: 100%;
+  position: absolute;
+
+  .menu-up, .menu-down {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+  }
+
+  .up-navlinks {
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: $color-grey;
+    padding: 8px 10px;
+
+    &:nth-of-type(2) {
+      font-size: 0.813rem;
+      border: 0.75px solid $color-yellow;
+      margin-left: 20px;
+    }
+
+    &:hover {
+      color: $color-dark-grey;
+    }
+  }
+  .menu-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.625rem;
+  }
+  .down-navlinks {
+    padding: 10px 20px 10px 20px;
+    font-size: 1.125rem;
+    text-decoration: none;
+    color: $color-dark-grey;
+
+    &:hover {
+      border: 0.75px solid $color-dark-grey;
+      cursor: pointer;
+    }
+  }
+}

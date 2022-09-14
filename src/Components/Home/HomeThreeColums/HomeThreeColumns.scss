@@ -1,0 +1,28 @@
+@import "../../../Scss/Settings/fonts";
+@import "../../../../src/Scss/Settings/colors";
+
+.three-colums {
+  background: url("../../../Assets/pictures/3ColumnsBackground.png");
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 384px;
+
+  .col {
+    text-align: center;
+    width: 334px;
+
+    p {
+      font-family: $font-alt;
+      font-weight: 300;
+      letter-spacing: -0,32px;
+      color: $color-dark-grey;
+      margin-top: 28px;
+      line-height: 1.3;
+    }
+  }
+}

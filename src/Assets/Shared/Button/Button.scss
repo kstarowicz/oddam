@@ -1,0 +1,17 @@
+@import "../../../Scss/Settings/colors";
+
+.button {
+
+  &-xl {
+    font-size: 2.25rem;
+    font-weight: 300;
+    width: 310px;
+    line-height: 1.3;
+    padding: 15px 35px;
+    margin: 10px auto;
+    border: 0.75px solid $color-dark-grey;
+    text-align: center;
+    text-decoration: none;
+    color: $color-dark-grey;
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../Scss/Settings/colors";
+@import "../../Scss/Settings/fonts";
+
+
+.login-container {
+  height:400px ;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50vh;
+  padding-top: 30vh;
+  font-family: $font-alt;
+}
+
+.login-box {
+  background-color: $color-light-grey;
+  height: 0px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons-login{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.login-button {
+  border: 1px solid $color-grey;
+
+}
+
+input {
+  height: 22px;
+  margin: 10px 0;
+}
