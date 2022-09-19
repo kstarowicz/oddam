@@ -7,7 +7,7 @@ import {
     FOUR_STEPS_ROUTE,
     ABOUT_US_ROUTE,
     WHO_WE_HELP_ROUTE,
-    //CONTACT_ROUTE,
+    CONTACT_ROUTE,
     LOGIN_ROUTE,
     //REGISTER_ROUTE
 } from "../../Constants/routeNames";
@@ -41,10 +41,10 @@ const DOWN_LINK_DEFINITIONS = [
         to: WHO_WE_HELP_ROUTE,
         text: "Fundacja i organizacje"
     },
-    /*{
+    {
         to: CONTACT_ROUTE,
         text: "Kontakt"
-    },*/
+    },
 ]
 
 export const Header = () => {

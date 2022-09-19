@@ -13,7 +13,7 @@ import {
     FOUR_STEPS_ROUTE,
     ABOUT_US_ROUTE,
     WHO_WE_HELP_ROUTE,
-    //CONTACT_ROUTE
+    CONTACT_ROUTE
 } from "./routeNames";
 
 
@@ -27,7 +27,7 @@ export const ROUTES_TO_CLASSNAMES_MAP = {
     [FOUR_STEPS_ROUTE]: "four-steps",
     [ABOUT_US_ROUTE]: "about-us",
     [WHO_WE_HELP_ROUTE]: "who-we-help",
-    //[CONTACT_ROUTE]: "contact",
+    [CONTACT_ROUTE]: "contact",
 };
 
 export const ROUTES = [

@@ -1,0 +1,136 @@
+@import "../../Scss/Settings/colors";
+@import "../../Scss/Settings/fonts";
+
+.contact {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  background: url("../../Assets/pictures/Background-Contact-Form.jpg") no-repeat center;
+  z-index: 0;
+  justify-content: flex-end;
+  align-items: center;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 1;
+  }
+
+  .contact-items {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 50px 30px 0;
+    width: 600px;
+
+    label {
+      font: normal normal 600 16px/85px $font-base;
+      margin-bottom: 0;
+      line-height: 2;
+    }
+
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: $color-dark-grey;
+      margin-bottom: 70px;
+
+      h2 {
+        line-height: 1.3;
+      }
+    }
+
+    &-form {
+      .contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+
+        .input-box-half {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          flex-wrap: wrap;
+
+          .input-text {
+            display: block;
+            border: none;
+            padding: 5px 2px;
+            border-bottom: 1px solid $color-dark-grey;
+            margin: 5px 5px 5px 0;
+            font-size: 18px;
+            background: transparent;
+
+            &::placeholder {
+              color: #3C3C3C26;
+            }
+          }
+        }
+
+        .textarea-box {
+          width: 100%;
+
+          textarea {
+            width: 100%;
+            font-family: $font-base;
+
+            &::placeholder {
+              color: #3C3C3C26;
+            }
+          }
+
+          .input-text {
+            display: block;
+            border: none;
+            padding: 5px 2px;
+            border-bottom: 1px solid $color-dark-grey;
+            background: transparent;
+            margin: 5px 5px 5px 0;
+            font-size: 18px;
+          }
+        }
+        &-button {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          margin-top: 53px;
+
+          .button {
+            font: normal normal 300 18px/32px $color-dark-grey;
+            border: 0.75px solid $color-dark-grey;
+            background: transparent;
+            padding: 12px 52px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.error-name, .error-email, .error-message {
+  color: red;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: 20px;
+  display: block;
+}
+
+.success-msg {
+  color: green;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.3;
+  width: 100%;
+  margin-bottom: 10px;
+}
