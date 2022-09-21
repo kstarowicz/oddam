@@ -21,6 +21,5 @@ export const HomeAboutUs = () => {
                 <div className= "about-us-right people-image"/>
             </div>
         </div>
-
     );
 };

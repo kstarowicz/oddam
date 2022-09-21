@@ -23,6 +23,5 @@ export const HomeThreeColumns = () => {
                 </div>
             </div>
         </div>
-
     );
 };

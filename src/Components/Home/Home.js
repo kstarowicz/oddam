@@ -8,7 +8,7 @@ import { HomeThreeColumns } from "./HomeThreeColums/HomeThreeColumns";
 import { HomeSteps } from "./HomeSteps/HomeSteps";
 import { HomeAboutUs } from "./HomeAboutUs/HomeAboutUs";
 import { HomeWhoWeHelp } from "./HomeWhoWeHelp/HomeWhoWeHelp";
-//import { ContactUs } from "../ContactUs/ContactUs";
+import { ContactUs } from "../ContactUs/ContactUs"
 
 import { ROUTES_TO_CLASSNAMES_MAP } from "../../Constants/routes";
 
@@ -36,7 +36,7 @@ export const Home = () => {
             <HomeSteps />
             <HomeAboutUs />
             <HomeWhoWeHelp />
-
+            <ContactUs/>
         </>
     );
 };
