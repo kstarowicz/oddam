@@ -1,6 +1,6 @@
 import { Home } from "../Components/Home/Home";
 import { Login } from "../Components/Login/Login";
-//import { Register } from "../Components/Register/Register";
+import { Register } from "../Components/Register/Register";
 import { Logout } from "../Components/Logout/Logout";
 //import { NotFound } from "../Components/NotFound";
 
@@ -8,7 +8,7 @@ import {
     HOME_ROUTE,
    // NOT_FOUND_ROUTE,
     LOGOUT_ROUTE,
-    //REGISTER_ROUTE,
+    REGISTER_ROUTE,
     LOGIN_ROUTE,
     FOUR_STEPS_ROUTE,
     ABOUT_US_ROUTE,
@@ -39,10 +39,10 @@ export const ROUTES = [
         path: LOGIN_ROUTE,
         element: <Login />
     },
-    /*{
+    {
         path: REGISTER_ROUTE,
         element: <Register />
-    },*/
+    },
     {
         path: LOGOUT_ROUTE,
         element: <Logout />
